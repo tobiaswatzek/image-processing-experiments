@@ -1,6 +1,6 @@
 [package]
-name = "vico-assignment-1"
-version = "0.1.0"
+name = "image-processing-experiments"
+version = "1.0.0"
 authors = ["Tobias Watzek <spitzfaust@gmail.com>"]
 edition = "2018"
 

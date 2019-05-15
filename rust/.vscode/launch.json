@@ -1,0 +1,47 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'vico-assignment-1'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=vico-assignment-1",
+                    "--package=vico-assignment-1"
+                ],
+                "filter": {
+                    "name": "vico-assignment-1",
+                    "kind": "bin"
+                }
+            },
+            "args": [
+                "./cake.jpg"
+            ],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'vico-assignment-1'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=vico-assignment-1",
+                    "--package=vico-assignment-1"
+                ],
+                "filter": {
+                    "name": "vico-assignment-1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

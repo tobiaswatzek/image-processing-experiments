@@ -1,0 +1,13 @@
+[package]
+name = "vico-assignment-1"
+version = "0.1.0"
+authors = ["Tobias Watzek <spitzfaust@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+image = "0.21.1"
+
+[dependencies.imageproc]
+version = "0.18.0"
+features = ["display-window"]
+
